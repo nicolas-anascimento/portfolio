@@ -1,0 +1,29 @@
+:root {
+    --bs-primary: #2c3e50; /* Cor personalizada */
+}
+
+.navbar {
+    transition: all 0.3s ease-in-out; /* Efeito suave */
+}
+
+.btn-primary {
+    border-radius: 30px;
+    padding: 12px 30px;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Efeito de levitação */
+}
+
+footer {
+    border-top: 2px solid var(--bs-primary);
+}
+
+footer a:hover {
+    color: var(--bs-primary) !important;
+    transition: 0.3s;
+}
